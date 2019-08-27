@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Joshua-Burleson/Node-Scraper/issues"
   },
-  "homepage": "https://github.com/Joshua-Burleson/Node-Scraper#readme"
+  "homepage": "https://github.com/Joshua-Burleson/Node-Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  }
 }
