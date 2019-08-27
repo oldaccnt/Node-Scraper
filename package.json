@@ -1,0 +1,20 @@
+{
+  "name": "nodescraper",
+  "version": "1.0.0",
+  "description": "Simple screen scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshua-Burleson/Node-Scraper.git"
+  },
+  "author": "Joshua Burleson <JBChrisander@gmail.com> (https://github.com/JoshuaBurleson)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joshua-Burleson/Node-Scraper/issues"
+  },
+  "homepage": "https://github.com/Joshua-Burleson/Node-Scraper#readme"
+}
