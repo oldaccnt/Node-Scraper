@@ -1,5 +1,5 @@
 # Node-Scraper
-##A simple Node with Express based screen scraper.
+## A simple Node with Express based screen scraper.
 
 ### To Start
     `node server.js`
