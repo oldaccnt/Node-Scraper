@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 const quickFileNameGenerator = (url) => {
-   return ['com','eu','ca','net','org','edu','ru','io','xxx','biz','me'].indexOf(url.split('.')[1]) === -1 ? `${url.split('.')[1]}.html` : `${url.split('.')[0]}.html`
+   return ['com','co','eu','ca','net','org','edu','ru','io','xxx','biz','me'].indexOf(url.split('.')[1]) === -1 ? `${url.split('.')[1]}.html` : `${url.split('.')[0]}.html`
 }
 
 const scrape = (req, res, newPath = undefined, attemptCount = 0, next) => { //request and response from express (user), new path for redirects, attempt count for reattempts, next for callbacks
